@@ -1,0 +1,409 @@
+body, html {
+    font-family: "Poppins", serif !important;
+    background: #000 !important;
+    font-size: 16px !important;
+    overflow-x: hidden !important;
+}
+
+p, h1, h2, h3, span, a {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+button {
+    border: none;
+}
+a {
+    text-decoration: none !important;
+    transition: 0.2s all;
+    
+}
+a:hover {
+    color: #949494 !important; 
+}
+
+
+.swiper {
+    width: 100%;
+    height: 200px;
+    img {
+        width: 195px;
+        border-radius: 12px;
+    }
+}
+
+
+
+.container {
+    max-width: 1340px;
+}
+
+.mid-btn {
+    border-radius: 20px;
+    background: #202020;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-out all;
+}
+.mid-btn:hover {
+    color: #202020 !important;
+    background-color: #fff;
+}
+
+.btn-base {
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(234, 232, 232, 0.50);
+    box-shadow: none;
+    display: flex;
+    padding: 12px 80px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 25px;
+    border: none;
+    font-weight: 700;
+    width: fit-content;
+    transition: 0.2s  all;
+}
+.btn-base:hover {
+    background-color: #000;
+    color: #FFF;
+    
+}
+
+.welcome {
+    background-image: url("img/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+    h1 {
+        font-size: 50px;
+    }
+}
+
+.headphones {
+    padding: 160px 0px;
+    h2 {
+        font-size: 64px;
+    }
+    background-image: url("img/Union.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+    .color-item {
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+    }
+
+    .color-item-wrapper:nth-of-type(1) .color-item{
+        background-color: #666666;
+    }
+    .color-item-wrapper:nth-of-type(2)  .color-item{
+        background-color: #FEB554;
+    }
+    .color-item-wrapper:nth-of-type(3)  .color-item{
+        background-color: #606651;
+    }
+    .color-item-wrapper:nth-of-type(4)  .color-item{
+        background-color: #EDAB7B;
+    }
+    .color-item-wrapper:nth-of-type(5)  .color-item{
+        background-color: #C56A72;
+    }
+
+}
+
+.slider {
+    h2 {
+        font-size: 64px !important;
+        color: #FFF;
+        margin-bottom: 90px !important; 
+        margin-top: 64px !important;
+        display: block !important;
+    }
+    
+}
+
+.bose {
+    background-image: url("img/bg-2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    margin-top: 90px;
+    h2 {
+        font-size: 38px !important;
+        color: #FFF;
+        font-weight: bold;
+        line-height: 72px;
+    }
+    p {
+        color: #FFF;
+        font-size: 25px !important;
+    }
+
+    .btn-base {
+        font-size: 20px !important;
+    }
+}
+
+.design {
+    background-image: url("img/union-3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 64px 0px !important;
+    position: relative;
+    h2 {
+        font-size: 68px !important;
+        font-weight: 600 !important;
+    }
+    .info-modal {
+        position: absolute;
+        left: 75%;
+        top: 20%;
+        svg {
+            position: absolute !important;
+            top: 10px !important;
+            left: -80px !important;
+        }
+        div {
+            position: relative !important;
+            width: 349px;
+            height: 106px;
+            display: flex;
+            align-items: left;
+            padding: 24px;
+            flex-direction: column;
+            border-radius: 12px;
+            background-color: #FFF;
+            box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+            span {
+                color: #000;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+            }
+            p {
+                color: #000;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+            }
+        }
+        
+    }
+}
+
+.mesage {
+    .logo {
+        width: 100%;
+        svg {
+            width: 50% !important;
+        }
+    }
+    p {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+footer {
+    a {
+        display: block !important;
+        width: fit-content;
+    }
+}
+
+.offcanvas-body {
+    background-color: #fff !important;
+
+    button {
+        background-color: #000 !important;
+    }
+}
+.offcanvas-header {
+    background-color: #000 !important;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 994px !important;
+    }
+    .welcome {
+        padding: 50px 0px;
+        h1 {
+            font-size: 36px;
+        }
+
+        div {
+            button {
+                padding: 8px 80px;
+                font-size: 20px;
+            }
+        }
+    }
+    
+    .headphones {
+        padding: 64px 0px;
+        h2 {
+            font-size: 40px !important;
+        }
+        .price {
+            align-items: center;
+            height: fit-content;
+        }
+
+        .btn-base {
+            padding: 0px 64px;
+            font-size: 20px !important;
+            height: max-content;
+        }
+    }
+
+    .slider {
+        h2 {
+            font-size: 40px !important;
+            margin-bottom: 40px !important;
+        }
+    }
+
+    .design {
+        h2 {
+            font-size: 40px !important;
+        }
+        .info-modal {
+            div {
+                padding: 16px;
+                width: 242px;
+                justify-content: center;
+                span {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    .swiper-slide {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .bose {
+        h2 {
+            font-size: 24px !important;
+        }
+        p {
+            font-size: 12px !important;
+        }
+        .btn-base {
+            font-size: 20px !important;
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    header {
+        .logo {
+            svg {
+                width: 120px;
+            }
+            
+        }
+        .mid-btn {
+            font-size: 12px;
+        } 
+    }
+
+    .slider {
+        h2 {
+            font-size: 24px !important;
+            margin-bottom: 24px !important;
+        }
+    }
+
+    .welcome {
+        padding: 32px 0px;
+        h1 {
+            font-size: 24px !important;
+        }
+        div {
+            button {
+                width: 100%;
+                font-size: 12px !important;
+            }
+        }
+    }
+    .btn-base {
+        font-size: 12px !important;
+        height:max-content;
+    }
+    .headphones {
+        background: url("img/Union-2.svg") 50% no-repeat;
+        background-position: -10px -100px;
+        .price {
+            button {
+                flex: 3;
+            }
+        }
+        h2 {
+            font-size: 16px !important;
+        }
+    }
+
+    .swiper {
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+    .design {
+        h2 {
+            font-size: 24px !important;
+        }
+        p {
+            font-size: 10px;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.2px;
+        }
+        .info-modal {
+
+            left: 6%;
+            top: 30%;
+            svg {
+                top: 0px !important;
+                left: 230px !important;
+            }
+            
+            div {
+                
+                padding: 16px 20px;
+                width: 216px;
+                justify-content: center;
+                height: fit-content;
+                span {
+                    font-size: 12px;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+}

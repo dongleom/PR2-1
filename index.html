@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>BOSE</title>
+</head>
+<body>
+
+    <header>
+
+
+            <nav class="navbar pt-5 pb-5 bg-black">
+                <div class="container">
+                  <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="165" height="27" viewBox="0 0 165 27" fill="none">
+                        <path d="M112.444 11.112H100.793L102.695 6.82193C103.488 5.02854 104.201 4.39558 105.364 4.39558C106.552 4.39558 106.949 5.6615 106.315 7.20875H118.204L119.393 4.39558C120.264 2.2857 120.264 0 118.124 0H97.1733C95.2711 0 93.7915 0.316482 92.6819 2.74284L88.9831 11.112C87.9527 13.5384 88.032 15.5076 90.5683 15.5076H102.616L100.661 20.1142C100.106 21.3801 99.3926 22.224 97.7546 22.224C96.3279 22.224 96.4071 20.9581 97.0412 19.7273H85.2314L83.8048 22.857C82.9329 24.8614 83.6462 26.6196 85.707 26.6196H106.5C108.402 26.6196 110.04 25.4592 110.991 23.3845L114.531 15.5076C115.271 13.5384 114.875 11.112 112.444 11.112Z" fill="white"/>
+                        <path d="M85.602 0H67.7949C65.3642 0 62.1938 0 60.318 4.39558L52.4448 22.224C51.3352 24.6504 52.2863 26.6196 54.347 26.6196H75.034C77.1476 26.6196 78.495 25.7757 80.1595 22.224L88.0327 4.39558C89.063 2.10988 87.4778 0 85.602 0ZM75.5888 6.82193L69.6971 20.1142C68.9045 22.013 68.1912 22.224 66.3946 22.224C64.5716 22.224 64.1225 21.3801 64.6509 20.1142L70.6218 6.82193C71.4937 4.81755 72.5241 4.39558 74.0036 4.39558C75.5095 4.39558 76.3814 5.02854 75.5888 6.82193Z" fill="white"/>
+                        <path d="M54.3989 0H31.572L21.7437 22.224H0V26.6196H43.8573C46.7635 26.6196 47.7147 24.7207 48.3487 23.279L50.7001 17.8285C51.3342 16.3515 51.3342 14.6988 50.0661 13.7494C51.3342 13.7494 53.0515 12.5889 54.0819 10.1977L56.4333 4.85272C57.6486 2.21537 56.2219 0 54.3989 0ZM42.6684 17.934L41.4795 20.4306C41.1625 21.2746 40.6077 22.224 39.2867 22.224H33.4478L36.4597 15.5076H42.1136C43.144 15.5076 43.144 16.7735 42.6684 17.934ZM47.6354 6.82193L46.4465 9.35379C46.1295 10.1977 45.5746 11.1472 44.2536 11.1472H38.4148L41.4003 4.43074H47.0806C48.111 4.39558 48.111 5.6615 47.6354 6.82193Z" fill="white"/>
+                        <path d="M134.848 4.39558H164.386V0H125.02L113.29 26.6196H140.687L142.642 22.224H126.975L129.961 15.5076H145.628L147.53 11.112H131.942L134.848 4.39558Z" fill="white"/>
+                      </svg>
+                  </div>
+
+                  <button class="mid-btn text-white fw-bold">NEW ARRIVALS</button>
+
+                  <div class="links d-none d-md-block">
+
+                    <a href="" class="link text-white">Headphones</a>
+                    <a href="" class="link text-white mx-3">Speakers</a>
+                    <a href="" class="link text-white">Support</a>
+
+                  </div>
+
+                  <button style="filter: brightness(10);" class="navbar-toggler d-block d-md-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Headphones</a></li>
+                            <li><a class="dropdown-item" href="#">Speakers</a></li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+
+    </header>
+    
+    <main>
+
+
+        <section class="welcome">
+
+            <div class="container">
+
+                <div class="row ">
+
+                    <div class="col-12 col-lg-6 d-flex flex-column align-items-center align-items-sm-start">
+
+                        <h1  class=" text-white fw-bold">Light. Sound. Celebrate. <br> This year, bring home.</h1>
+                        <button  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GO to SHOP" style="margin-top: 120px;" class="btn-base">SHOP</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        
+
+        <section class="headphones">
+
+            <div class="container">
+
+              <div class="d-none d-sm-flex row align-items-center justify-content-between justify-content-lg-evenly">
+
+                <div class="col-lg-5 col-md-8 col-sm-8  d-flex justify-content-center">
+                    <div class="text-block text-white">
+
+                      <h2 class="fw-bold" >QuietComfort 35 wireless headphones II</h2>
+                      <div class="color mt-4">
+
+                        <p>Select your color:</p>
+                        <div class="colors-box d-flex gap-3 mt-3">
+                          <div class="color-item-wrapper">
+                              <div class="color-item"></div>
+                          </div>
+                          <div class="color-item-wrapper">
+                            <div class="color-item"></div>
+                          </div>
+                          <div class="color-item-wrapper">
+                            <div class="color-item"></div>
+                        </div>
+                        <div class="color-item-wrapper">
+                          <div class="color-item"></div>
+                        </div>
+                        <div class="color-item-wrapper">
+                          <div class="color-item"></div>
+                        </div>
+                        </div>
+                        <div class="color-name mt-1">silver</div>
+
+                        <div class="price d-flex justify-content-start mt-4">
+                          <p class="fw-bold fs-2 me-5">$229</p>
+                          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-base">BUY NOW</button>
+                        </div>
+
+                      </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                  <img src="img/headphones.png" width="100%" alt="">
+                </div>
+
+              </div>
+
+              <div class="d-flex d-sm-none row align-items-center justify-content-between justify-content-lg-evenly">
+
+                <div class="col-4  d-flex justify-content-center">
+                  <img src="img/headphones.png" width="100%" alt="">
+                </div>
+
+                <div class="col-8  d-flex justify-content-center">
+                    <div class="text-block text-white">
+
+                      <h2 class="fw-bold" >QuietComfort 35 wireless headphones II</h2>
+                      <div class="color mt-4">
+
+                        <p>Select your color:</p>
+                        <div class="colors-box d-flex gap-3 mt-3">
+                          <div class="color-item-wrapper">
+                              <div class="color-item"></div>
+                          </div>
+                          <div class="color-item-wrapper">
+                            <div class="color-item"></div>
+                          </div>
+                          <div class="color-item-wrapper">
+                            <div class="color-item"></div>
+                        </div>
+                        <div class="color-item-wrapper">
+                          <div class="color-item"></div>
+                        </div>
+                        <div class="color-item-wrapper">
+                          <div class="color-item"></div>
+                        </div>
+                        </div>
+                        <div class="color-name mt-1">silver</div>
+
+                        
+
+                      </div>
+
+                    </div>
+                </div>
+
+                
+
+              </div>
+              <div class="row d-block d-sm-none text-white">
+                <div class="price d-flex  justify-content-between mt-4">
+                  <p class="fw-bold fs-2 me-5">$229</p>
+                  <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-base">BUY NOW</button>
+                </div>
+              </div>
+
+            </div>
+
+        </section>
+
+        <section class="slider">
+          <div class="container">
+            <h2 class="fw-bold">FEATURED PRODUCTS</h2>
+          </div>
+          <div style="position: relative;" class="container">
+            <!-- Slider main container -->
+          <div style="position: unset !important;" class="swiper">
+            <!-- Additional required wrapper -->
+            <div style="padding-left: 3%; position: unset !important;" class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="img/1.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/2.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/3.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/4.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/5.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/2.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/5.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/1.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/2.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/3.jpeg" alt="">
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div style="left: -3px" class="swiper-button-prev text-white"></div>
+            <div  class="swiper-button-next text-white"></div>
+
+          </div>
+
+          </div>
+
+        </section>
+
+        <section class="bose">
+
+          <div class="container">
+
+            <div class="row justify-content-between d-none d-md-flex">
+
+              <div class="col-7 col-lg-6 justify-content-center d-flex flex-column">
+
+                <h2>Astonishing sound. <br> Wherever life takes you.</h2>
+                <p class="mt-4" >SOUNDLINK FLEX BLUETOOTH® SPEAKER</p>
+
+                <button id="liveToastBtn" class="btn-base mt-4">
+                  LEARN MORE
+                </button>
+              </div>
+
+              <div class="col-5 col-lg-6 align-items-center d-flex">
+                <img width="100%" src="img/bose-item.png" alt="">
+              </div>
+
+            </div>
+
+            <div class="row justify-content-between d-flex d-md-none">
+
+              <div class="col-12 justify-content-center align-items-center d-flex flex-column">
+
+                <h2 class="d-block text-center">Astonishing sound. <br> Wherever life takes you.</h2>
+                <p class="mt-4 d-block text-center" >SOUNDLINK FLEX BLUETOOTH® SPEAKER</p>
+
+                <img width="100%" src="img/bose-item.png" alt="">
+
+                <button class="btn-base mt-4">
+                  LEARN MORE
+                </button>
+              </div>
+
+
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="design">
+
+          <div class="container">
+
+              <div class="row justify-content-center align-items-center flex-column">
+                <div class="col-12 col-lg-8">
+                  <h2 class="text-center text-white">Premium design</h2>
+                <p class="text-center text-white mt-3">When you want to take your music anywhere, you need headphones built to keep up. With impact-resistant materials, glass-filled nylon, and corrosion-resistant stainless steel, they’re engineered to survive life on the go.</p>
+                </div>
+
+                <div class="col-12 col-lg-10 mt-5 position-relative">
+                  <img src="img/headphones-2.png" width="100%" alt="">
+                  <div class="info-modal">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
+                        <circle cx="32.6379" cy="32.6503" r="14.86" fill="white" stroke="white"/>
+                        <circle opacity="0.4" cx="32.638" cy="32.6501" r="23.82" stroke="url(#paint0_linear_4_445)"/>
+                        <circle opacity="0.2" cx="32.6379" cy="32.6501" r="31.5" stroke="url(#paint1_linear_4_445)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M33.2779 32.0102V26.2502L31.9979 26.2502L31.9979 32.0102H26.2377V33.2902H31.9979L31.9979 39.0502H33.2779V33.2902H39.0377V32.0102H33.2779Z" fill="black"/>
+                        <defs>
+                          <linearGradient id="paint0_linear_4_445" x1="21.758" y1="14.7301" x2="46.078" y2="56.9701" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#373737"/>
+                            <stop offset="1" stop-color="#777777"/>
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_4_445" x1="18.3221" y1="9.0712" x2="50.3222" y2="64.6501" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#373737"/>
+                            <stop offset="1" stop-color="#777777"/>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      <span>Impact resistant</span>
+                      <p>Designed to handle life on the go.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row d-none d-sm-flex">
+
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                  <h2 class="text-white fw-bold">Up to 20 hours battery life</h2>
+                  <p class="text-white mt-3">Enjoy up to 20 hours of listening, enough time to pore through this entire playlist. So you can keep the music — or the quiet — going all day long. And when it finally runs down, a quick 15-minute charge gives you another 2.5 hours. </p>
+                </div>
+
+                <div class="col-12 col-lg-6 align-items-center">
+                  <img src="img/man.svg" width="100%" alt="">
+                </div>
+
+              </div>
+
+              <div class="row d-flex d-sm-none">
+
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                  <h2 class="text-white fw-bold">Up to 20 hours battery life</h2>
+                  <p class="text-white mt-3">Enjoy up to 20 hours of listening, enough time to pore through this entire playlist. So you can keep the music — or the quiet — going all day long. And when it finally runs down, a quick 15-minute charge gives you another 2.5 hours. </p>
+                </div>
+
+                <div class="col-12 col-lg-6 align-items-center mt-3">
+                  <img src="img/man-2.png" width="100%" alt="">
+                </div>
+
+              </div>
+            
+          </div>
+
+        </section>
+
+        <section class="mesage mt-5">
+
+          <div class="container">
+
+            <div class="row">
+              <div class="col-12 text-center align-items-center d-flex flex-column">
+
+                <div class="logo">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 165 27" fill="none">
+                      <path d="M112.444 11.112H100.793L102.695 6.82193C103.488 5.02854 104.201 4.39558 105.364 4.39558C106.552 4.39558 106.949 5.6615 106.315 7.20875H118.204L119.393 4.39558C120.264 2.2857 120.264 0 118.124 0H97.1733C95.2711 0 93.7915 0.316482 92.6819 2.74284L88.9831 11.112C87.9527 13.5384 88.032 15.5076 90.5683 15.5076H102.616L100.661 20.1142C100.106 21.3801 99.3926 22.224 97.7546 22.224C96.3279 22.224 96.4071 20.9581 97.0412 19.7273H85.2314L83.8048 22.857C82.9329 24.8614 83.6462 26.6196 85.707 26.6196H106.5C108.402 26.6196 110.04 25.4592 110.991 23.3845L114.531 15.5076C115.271 13.5384 114.875 11.112 112.444 11.112Z" fill="white"/>
+                      <path d="M85.602 0H67.7949C65.3642 0 62.1938 0 60.318 4.39558L52.4448 22.224C51.3352 24.6504 52.2863 26.6196 54.347 26.6196H75.034C77.1476 26.6196 78.495 25.7757 80.1595 22.224L88.0327 4.39558C89.063 2.10988 87.4778 0 85.602 0ZM75.5888 6.82193L69.6971 20.1142C68.9045 22.013 68.1912 22.224 66.3946 22.224C64.5716 22.224 64.1225 21.3801 64.6509 20.1142L70.6218 6.82193C71.4937 4.81755 72.5241 4.39558 74.0036 4.39558C75.5095 4.39558 76.3814 5.02854 75.5888 6.82193Z" fill="white"/>
+                      <path d="M54.3989 0H31.572L21.7437 22.224H0V26.6196H43.8573C46.7635 26.6196 47.7147 24.7207 48.3487 23.279L50.7001 17.8285C51.3342 16.3515 51.3342 14.6988 50.0661 13.7494C51.3342 13.7494 53.0515 12.5889 54.0819 10.1977L56.4333 4.85272C57.6486 2.21537 56.2219 0 54.3989 0ZM42.6684 17.934L41.4795 20.4306C41.1625 21.2746 40.6077 22.224 39.2867 22.224H33.4478L36.4597 15.5076H42.1136C43.144 15.5076 43.144 16.7735 42.6684 17.934ZM47.6354 6.82193L46.4465 9.35379C46.1295 10.1977 45.5746 11.1472 44.2536 11.1472H38.4148L41.4003 4.43074H47.0806C48.111 4.39558 48.111 5.6615 47.6354 6.82193Z" fill="white"/>
+                      <path d="M134.848 4.39558H164.386V0H125.02L113.29 26.6196H140.687L142.642 22.224H126.975L129.961 15.5076H145.628L147.53 11.112H131.942L134.848 4.39558Z" fill="white"/>
+                    </svg>
+                </div>
+    
+                <p class="text-white mt-5">A message to Bose Professional customers: An important loudspeaker recall notice.</p>
+                <button  class="btn-base mt-4">
+                  LEARN MORE
+                </button>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div style="background-color: #1E1E1E;" class="line mt-5">
+            <div class="container">
+              <div class="row py-1 justify-content-between">
+                <div style="width: fit-content" class="icons d-flex align-items-center justify-content-between">
+                  <svg style="width: 4vw !important;" xmlns="http://www.w3.org/2000/svg" width="25" height="54" viewBox="0 0 25 54" fill="none">
+                    <path d="M5.54985 10.2981C5.54985 11.6374 5.597 18.1903 5.597 18.1903H0V26.5858L5.54985 26.5704L5.597 53.1715H16.791V26.5858L23.9602 26.5704C23.9602 26.5704 24.5017 22.8835 24.8367 18.1903C23.8749 18.1903 16.791 18.1903 16.791 18.1903C16.791 18.1903 16.609 12.3765 16.609 11.4643C16.609 10.5498 17.8101 9.31915 18.9975 9.31915H25C25 8.10041 25 3.88922 25 0C21.9078 0 18.3902 0 16.8387 0C5.27742 0 5.54985 8.95996 5.54985 10.2981Z" fill="#676767"/>
+                  </svg>
+                  <svg class="ms-3" style="height: 9vw !important; " xmlns="http://www.w3.org/2000/svg" width="80" height="54" viewBox="0 0 80 54" fill="none">
+                    <path d="M78.0455 8.33851C77.6064 6.74721 76.73 5.2923 75.5042 4.11965C74.278 2.94701 72.7457 2.09783 71.0602 1.65726C64.8235 0.0162354 39.8346 0.016235 39.8346 0.016235C29.4149 -0.101432 18.998 0.420613 8.6506 1.57911C6.96464 2.05187 5.43471 2.9206 4.20524 4.10331C2.97579 5.28599 2.08735 6.74359 1.6238 8.33851C0.505901 14.3632 -0.0367799 20.4698 0.00223043 26.5849C-0.0394551 32.7004 0.503247 38.8072 1.6238 44.8317C2.0778 46.4222 2.96433 47.8745 4.1963 49.0462C5.42827 50.2175 6.96328 51.0674 8.6506 51.5127C14.9706 53.1537 39.8346 53.1537 39.8346 53.1537C50.2681 53.2716 60.699 52.7495 71.0602 51.5908C72.7457 51.1504 74.278 50.3012 75.5042 49.1285C76.73 47.9559 77.6064 46.5009 78.0455 44.9097C79.1919 38.8879 79.7486 32.7804 79.7087 26.6633C79.7947 20.5186 79.2374 14.3808 78.0455 8.33851ZM31.8931 37.955V15.2152L52.6826 26.5849L31.8931 37.955Z" fill="#676767"/>
+                  </svg>
+                </div>
+                <div  style="width: fit-content" class="email d-flex align-items-center justify-content-between">
+                  <svg style="height: 9vw !important;" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+                    <path d="M44.3083 8.86182H8.86168C6.42472 8.86182 4.453 10.8557 4.453 13.2927L4.43085 39.8777C4.43085 42.3146 6.42472 44.3085 8.86168 44.3085H44.3083C46.7453 44.3085 48.7392 42.3146 48.7392 39.8777V13.2927C48.7392 10.8557 46.7453 8.86182 44.3083 8.86182ZM43.4222 18.2773L27.7592 28.0695C27.0503 28.5126 26.1198 28.5126 25.4108 28.0695L9.74785 18.2773C9.19399 17.9229 8.86168 17.3247 8.86168 16.6822C8.86168 15.1979 10.4789 14.3117 11.7417 15.0871L26.585 24.3697L41.4283 15.0871C42.6911 14.3117 44.3083 15.1979 44.3083 16.6822C44.3083 17.3247 43.976 17.9229 43.4222 18.2773Z" fill="#676767"/>
+                  </svg>
+                  <p class="text-white fs-5 d-block ms-3">Email sign-up</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+    </main>
+
+    <footer style="padding: 100px 0px">
+
+        <div class="container">
+
+          <div class="row justify-content-between">
+
+            <div class="col-12 col-sm-4">
+
+              <p class="fw-bold text-white fs-3 mb-4">BOSE PROFESSIONAL <br>
+                AUTOMOTIVE SYSTEMS <br>
+                BOSE WORK</p>
+
+            </div>
+
+            <div class="col d-flex justify-content-center" >
+
+              <div   class="col d-flex flex-column gap-2">
+                <a style="color: #C5C5C5; font-weight: 500" href="">Support</a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Contact Us
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Find a Store
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">About Us
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Work at Bose
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Bose Incentives, Awards & Gifts
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Bose Worldwide</a>
+              </div>
+
+            </div>
+
+            <div class="col d-flex justify-content-center">
+
+              <div  class="col d-flex flex-column gap-2"><a style="color: #C5C5C5; font-weight: 500" href="">Privacy policy
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Terms of use
+
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">SMS Terms of Use
+
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Beware of counterfeits
+
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Cookies notice
+
+              </a>
+              <a style="color: #C5C5C5; font-weight: 500" href="">Copyright Policy
+              </a></div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">State</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                  Please provide a valid zip.
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button style="background-color: #000; color: #fff; border: none" class="btn btn-primary" type="submit">Submit form</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button style="background-color: #000; color: #fff; border: none"  type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button style="background-color: #000; color: #fff; border: none"  type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <strong class="me-auto text-black">BOSE</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, from BOSE!
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+</html>
